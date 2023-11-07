@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
+* {
+	box-sizing: border-box;
+	font-family: 'Silkscreen', monospace;
+}
+
+body {
+	background-color: #6f96ff;
+	text-align: center;
+}
+
+.title {
+	color: #fafafa;
+	font-size: 3rem;
+	text-shadow: 4px 4px 1px #223552;
+}
+
+.subtitle {
+	color: #223552;
+	font-size: 1.5rem;
+}
+
+.container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}

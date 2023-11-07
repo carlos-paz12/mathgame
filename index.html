@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="styles/general_style.css">
+	<link rel="stylesheet" href="styles/index_style.css">
+
+	<title>MathGame | Home</title>
+</head>
+
+<body>
+	<div class="container">
+		<div id="logo-container">
+			<img src="res/logo.svg" alt="game_logo">
+			<h1 class="title">MathGame!</h1>
+		</div>
+
+		<div id="form-container">
+			<form action="game.php" method="post">
+				<select id="select-operation" name="select-operation" required>
+					<option value="1">Add</option>
+					<option value="2">Subtract</option>
+					<option value="3">Multiply</option>
+					<option value="4">Divide</option>
+				</select>
+				<input type="submit" id="input-start" name="input-start" value="Start">
+			</form>
+		</div>
+	</div>
+</body>
+
+</html>

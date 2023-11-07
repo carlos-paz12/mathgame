@@ -1,0 +1,45 @@
+#game-values {
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#game-values>span {
+	color: #fafafa;
+	font-size: 5rem;
+}
+
+form {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+form>input[type="submit"] {
+	background-color: #ffbb00;
+	color: #0a254d;
+	cursor: pointer;
+	transition: 0.4s;
+	width: 200px;
+}
+
+form>input[type="submit"]:hover {
+	background-color: #ffdc7c;
+	transition: 0.4s;
+}
+
+form>input[type="text"] {
+	background-color: #ffffff;
+	color: #0a254d;
+	cursor: text;
+	width: 50px;
+}
+
+form>input {
+	border: none;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 20px;
+	padding: 10px;
+}

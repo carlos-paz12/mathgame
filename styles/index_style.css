@@ -1,0 +1,28 @@
+input[type="text"], select {
+	background-color: #f3f3f3;
+	border: none;
+	font-size: 1rem;
+	padding: 0.2rem;
+	width: 15rem;
+}
+
+input[type="submit"], a {
+	background-color: #ffbb00;
+	border: 2px solid #223552;
+	box-shadow: 4px 4px 0px #223552;
+	color: #0a254d;
+	font-size: 1rem;
+	padding: 0.5rem;
+	text-decoration: none;
+	transition: 0.3s;
+}
+
+input[type="submit"]:hover, a:hover {
+	background-color: #ffd159;
+	box-shadow: none;
+	transition: 0.3s;
+}
+
+input[type="submit"], select {
+	cursor: pointer;
+}

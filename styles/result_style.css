@@ -1,0 +1,16 @@
+a {
+	background-color: #ffbb00;
+	border: 2px solid #223552;
+	box-shadow: 4px 4px 0px #223552;
+	color: #0a254d;
+	font-size: 1.2rem;
+	padding: 0.5rem;
+	text-decoration: none;
+	transition: 0.3s;
+}
+
+a:hover {
+	background-color: #ffd159;
+	box-shadow: none;
+	transition: 0.3s;
+}
